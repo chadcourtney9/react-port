@@ -1,17 +1,18 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar"
+import { Navbar, Nav } from 'react-bootstrap';
 
-function Nav() {
+function PortNav() {
     return (
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home">Chad Courtney</Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="#features">About Me</Nav.Link>
+                <Nav.Link href="#pricing">Portfolio</Nav.Link>
             </Nav>
         </Navbar>
+
     )
 }
 
-export default Nav;
+export default PortNav;
