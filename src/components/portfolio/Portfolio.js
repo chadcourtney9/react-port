@@ -1,108 +1,102 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import DnDSlide3 from "../images/DnDSlide3.PNG";
-import DnDSlide2 from "../images/dndviewchar.PNG";
-import DndSlide1 from "../images/login page.PNG";
-import Meal1 from "../images/projectGif1.gif";
-import Meal2 from "../images/projectGif2.gif";
+import DndSlide1 from "../images/DndHome.png";
+import Meal from "../images/mealFix.PNG";
+import Planner from "../images/dailyplannerfix.PNG";
 import RGen from "../images/randompassword gen.PNG";
-import Planner from "../images/page-image-layout.PNG";
+import BudgetTracker from "../images/budget-tracker.PNG";
+import FitnessTracker from "../images/fitnessTracker.PNG";
 import "./Portcss.css";
+import { Container, Row } from "react-bootstrap";
 
 function Portfolio() {
     return (
-        <div>
-            {/* Project 2 Start */}
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={DndSlide1}
-                        alt="Log In Page Dungeons And Dragons"
-                    />
-                    <Carousel.Caption>
-                        <h3>Log In Page</h3>
-                        <p>A log in page with validation to make sure you are entering valid email and password</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={DnDSlide2}
-                        alt="Home Page Dungeons And Dragons"
-                    />
+        <div className="imgHolder">
+            <h1 className="portHeader">Projects</h1>
+            <Row className="portRow">
+                <Container className="portContainer col-md-6">
+                    <div className="content">
+                        <a href="https://character-creator-express.herokuapp.com/login" rel="noreferrer" target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src={DndSlide1} alt="Dnd page" />
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Character Creator Express</h3>
+                                <p className="content-text">Quickly create Character for D&D campaings. Click background to see page!</p>
+                                <a className="content-text" href="https://github.com/chadcourtney9/dnd-quick-character-creator">Code</a>
+                            </div>
+                        </a>
+                    </div>
+                </Container>
+                <Container className="portContainer col-md-6">
+                    <div className="content">
+                        <a href="https://character-creator-express.herokuapp.com/login" rel="noreferrer" target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src={Meal} alt="Dnd page" />
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Suprise Me-al</h3>
+                                <p className="content-text">Quickly find meals around the world to make for dinner! Click background to see page!</p>
+                                <a className="content-text" href="https://github.com/chadcourtney9/dnd-quick-character-creator">Code</a>
+                            </div>
+                        </a>
+                    </div>
+                </Container>
+                <Container className="portContainer col-md-6">
+                    <div className="content">
+                        <a href="https://lit-shore-77411.herokuapp.com/?id=607d95d51873600015c1794a" rel="noreferrer" target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src={FitnessTracker} alt="Dnd page" />
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Suprise Me-al</h3>
+                                <p className="content-text">Click to see page!</p>
+                                <a className="content-text" href="https://github.com/chadcourtney9/Fitness-Tracker">Code</a>
+                            </div>
+                        </a>
+                    </div>
+                </Container>
+                <Container className="portContainer col-md-6">
+                    <div className="content">
+                        <a href="https://chadcourtney9.github.io/Daily-Planner/" rel="noreferrer" target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src={RGen} alt="Dnd page" />
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Random Password Generator</h3>
+                                <p className="content-text">Generate a strong random password with selected characters! Click background to see page!</p>
+                                <a className="content-text" href="https://github.com/chadcourtney9/Random-Password-Gen">Code</a>
+                            </div>
+                        </a>
+                    </div>
+                </Container>
+                <Container className="portContainer col-md-6">
+                    <div className="content">
+                        <a href="https://stormy-taiga-31660.herokuapp.com/" rel="noreferrer" target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src={BudgetTracker} alt="Dnd page" />
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Suprise Me-al</h3>
+                                <p className="content-text">Click to see page!</p>
+                                <a className="content-text" href="https://github.com/chadcourtney9/budget-tracker">Code</a>
+                            </div>
+                        </a>
+                    </div>
+                </Container>
+                <Container className="portContainer col-md-6">
+                    <div className="content">
+                        <a href="https://character-creator-express.herokuapp.com/login" rel="noreferrer" target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src={Planner} alt="Dnd page" />
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Daily Planner</h3>
+                                <p className="content-text">Sort daily tasks based hourly to organize your day! Click background to see page!</p>
+                                <a className="content-text" href="https://github.com/chadcourtney9/Daily-Planner">Code</a>
+                            </div>
+                        </a>
+                    </div>
 
-                    <Carousel.Caption>
-                        <h3>View Characters</h3>
-                        <p>This page allows you to see all of the characters you have created for previous campaigns.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={DnDSlide3}
-                        alt="Character Page Dungeons And Dragons"
-                    />
+                </Container>
+            </Row>
 
-                    <Carousel.Caption>
-                        <h3>Character Page</h3>
-                        <p>Here you can see all of your characters info, general stats, mods and additional information like equipment</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-            {/* Project 2 end */}
-            {/* Project 1 Start */}
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={Meal1}
-                        alt="Suprise Me-al Home Page"
-                    />
-                    <Carousel.Caption>
-                        <h3>Surpise Me-al Home page</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={Meal2}
-                        alt="Generated Food/Drink gif"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Food Page</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-            {/* Project 1 end */}
-            {/* Password Generator Start */}
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={RGen}
-                        alt="Random Password Generator"
-                    />
-                </Carousel.Item>
-
-            </Carousel>
-            {/* Password Generator End */}
-            {/* Daily Planner Start */}
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={Planner}
-                        alt="Daily Planner"
-                    />
-                </Carousel.Item>
-            </Carousel >
-            {/* Daily Planner End*/}
-        </div>
+        </div >
     )
+
 }
 
 export default Portfolio;
