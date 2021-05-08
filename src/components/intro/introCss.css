@@ -1,0 +1,28 @@
+.introCont {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Cormorant SC', serif;
+}
+
+.bg {
+    background-image: url("../images/pexels-eberhard-grossgasteiger-691668.jpg");
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.nameRow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
