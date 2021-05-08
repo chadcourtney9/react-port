@@ -1,0 +1,27 @@
+li {
+display: inline-block;
+font-size: 20px;
+padding: 0 5px;
+}
+
+Link {
+    display: inline-block;
+    color: grey;
+    font-family: 'Cormorant SC', serif;
+    font-weight: lighter;
+
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}

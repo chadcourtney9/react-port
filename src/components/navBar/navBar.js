@@ -1,17 +1,15 @@
 import React from "react";
-import { Navbar, Nav } from 'react-bootstrap';
+import "./navbar.css";
+import { Link } from "react-router-dom";
 
 function PortNav() {
     return (
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Chad Courtney</Navbar.Brand>
-            <Nav className="mr-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="#features">About Me</Nav.Link>
-                <Nav.Link href="#pricing">Portfolio</Nav.Link>
-            </Nav>
-        </Navbar>
 
+        <div>
+            <li><Link style={{ textDecoration: "none", color: "grey" }} as={Link} to={"/"} className="cool-link">Home</Link></li>
+            <li><Link style={{ textDecoration: "none", color: "grey" }} as={Link} to={"/about"} className="cool-link">About Me</Link></li>
+            <li><Link style={{ textDecoration: "none", color: "grey" }} as={Link} to={"/portfolio"} className="cool-link">Portfolio</Link></li>
+        </div>
     )
 }
 
