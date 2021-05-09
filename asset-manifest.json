@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/chadcourtney9/react-port/static/css/main.99aa3e20.chunk.css",
+    "main.js": "/chadcourtney9/react-port/static/js/main.eb9fb491.chunk.js",
+    "main.js.map": "/chadcourtney9/react-port/static/js/main.eb9fb491.chunk.js.map",
+    "runtime-main.js": "/chadcourtney9/react-port/static/js/runtime-main.02473053.js",
+    "runtime-main.js.map": "/chadcourtney9/react-port/static/js/runtime-main.02473053.js.map",
+    "static/css/2.800be05e.chunk.css": "/chadcourtney9/react-port/static/css/2.800be05e.chunk.css",
+    "static/js/2.9d3465fc.chunk.js": "/chadcourtney9/react-port/static/js/2.9d3465fc.chunk.js",
+    "static/js/2.9d3465fc.chunk.js.map": "/chadcourtney9/react-port/static/js/2.9d3465fc.chunk.js.map",
+    "static/js/3.b28450b0.chunk.js": "/chadcourtney9/react-port/static/js/3.b28450b0.chunk.js",
+    "static/js/3.b28450b0.chunk.js.map": "/chadcourtney9/react-port/static/js/3.b28450b0.chunk.js.map",
+    "index.html": "/chadcourtney9/react-port/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/chadcourtney9/react-port/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.99aa3e20.chunk.css.map": "/chadcourtney9/react-port/static/css/main.99aa3e20.chunk.css.map",
+    "static/js/2.9d3465fc.chunk.js.LICENSE.txt": "/chadcourtney9/react-port/static/js/2.9d3465fc.chunk.js.LICENSE.txt",
+    "static/media/Capture2.dc65c876.PNG": "/chadcourtney9/react-port/static/media/Capture2.dc65c876.PNG",
+    "static/media/DndHome.4fcba05b.png": "/chadcourtney9/react-port/static/media/DndHome.4fcba05b.png",
+    "static/media/budget-tracker.c2f9132e.PNG": "/chadcourtney9/react-port/static/media/budget-tracker.c2f9132e.PNG",
+    "static/media/dailyplannerfix.d1ef668c.PNG": "/chadcourtney9/react-port/static/media/dailyplannerfix.d1ef668c.PNG",
+    "static/media/fitnessTracker.3d54f1eb.PNG": "/chadcourtney9/react-port/static/media/fitnessTracker.3d54f1eb.PNG",
+    "static/media/mealFix.672cf1f6.PNG": "/chadcourtney9/react-port/static/media/mealFix.672cf1f6.PNG",
+    "static/media/introCss.css": "/chadcourtney9/react-port/static/media/pexels-eberhard-grossgasteiger-691668.96bd0dc3.jpg",
+    "static/media/randompassword gen.36aab96d.PNG": "/chadcourtney9/react-port/static/media/randompassword gen.36aab96d.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02473053.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.9d3465fc.chunk.js",
+    "static/css/main.99aa3e20.chunk.css",
+    "static/js/main.eb9fb491.chunk.js"
+  ]
+}
