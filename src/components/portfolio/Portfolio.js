@@ -25,7 +25,7 @@ function Portfolio() {
                                 <Link style={{ textDecoration: "none", color: "grey" }}
                                     className="content-text"
                                     href="https://github.com/chadcourtney9/dnd-quick-character-creator"><i
-                                        className="fab fa-github"></i>Code</Link>
+                                        className="fab fa-github"></i> Code</Link>
                             </div>
                         </a>
                     </div>
@@ -41,7 +41,7 @@ function Portfolio() {
                                 <Link style={{ textDecoration: "none", color: "grey" }}
                                     className="content-text"
                                     href="https://github.com/chadcourtney9/dnd-quick-character-creator"><i
-                                        className="fab fa-github"></i>Code</Link>
+                                        className="fab fa-github"></i> Code</Link>
                             </div>
                         </a>
                     </div>
@@ -58,7 +58,7 @@ function Portfolio() {
                                     style={{ textDecoration: "none", color: "grey" }}
                                     className="content-text"
                                     href="https://github.com/chadcourtney9/Fitness-Tracker"><i
-                                        className="fab fa-github"></i>Code</Link>
+                                        className="fab fa-github"></i> Code</Link>
                             </div>
                         </a>
                     </div>
@@ -75,7 +75,7 @@ function Portfolio() {
                                     style={{ textDecoration: "none", color: "grey" }}
                                     className="content-text"
                                     href="https://github.com/chadcourtney9/Random-Password-Gen"><i
-                                        className="fab fa-github"></i>Code</Link>
+                                        className="fab fa-github"></i> Code</Link>
                             </div>
                         </a>
                     </div>
@@ -92,7 +92,7 @@ function Portfolio() {
                                     style={{ textDecoration: "none", color: "grey" }}
                                     className="content-text"
                                     href="https://github.com/chadcourtney9/budget-tracker"><i
-                                        className="fab fa-github"></i>Code</Link>
+                                        className="fab fa-github"></i> Code</Link>
                             </div>
                         </a>
                     </div>
@@ -108,7 +108,8 @@ function Portfolio() {
                                 <Link
                                     style={{ textDecoration: "none", color: "grey" }}
                                     className="content-text"
-                                    href="https://github.com/chadcourtney9/Daily-Planner"><i className="fab fa-github"></i>Code</Link>
+                                    href="https://github.com/chadcourtney9/Daily-Planner"><i
+                                        className="fab fa-github"></i> Code</Link>
                             </div>
                         </a>
                     </div>
