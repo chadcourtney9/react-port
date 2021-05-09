@@ -3,7 +3,7 @@
 ![image](./src/components/images/mdimage.PNG)
 
 ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-
+[See deployed portfolio here!](https://chad-courtney.herokuapp.com/)
 # Technology
 #### React, React Router, Bootstrap, HTML, CSS
 
