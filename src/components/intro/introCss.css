@@ -13,10 +13,11 @@ h1, h2 {
 
 .bg {
     background-image: url("../images/pexels-eberhard-grossgasteiger-691668.jpg");
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: center center;
+background-attachment: fixed;
+
 }
 
 .nameRow {
@@ -25,4 +26,5 @@ h1, h2 {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 
