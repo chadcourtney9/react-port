@@ -18,7 +18,7 @@ class AboutMe extends Component {
                         </p>
                         <br></br>
                         <li><a style={{ textDecoration: "none", color: "grey" }} className="cool-link" href="tel: 9784573908" >Phone</a></li>
-                        <li><a style={{ textDecoration: "none", color: "grey" }} className="cool-link" href="mailto: chadcourtney567@gmail.com" >Email</a></li>
+                        <li><a style={{ textDecoration: "none", color: "grey" }} className="cool-link" href="mailto: CourtneyRChad@gmail.com" >Email</a></li>
                     </Container>
                 </Jumbotron>
             </div >
